@@ -1,0 +1,18 @@
+programa
+{
+     //Faça um programa mostrando a tabuada do 5 com os números de 1 a 10.
+     
+     inteiro  r, c
+     
+	
+	funcao inicio()
+	{
+		escreva("Professor que desafio!")
+
+		para (c = 1; c <= 10; c++) 
+		{
+			r = 5 * c 
+			escreva ( "5 X ", c, " = ", r , "\n")
+		}
+	}
+}
