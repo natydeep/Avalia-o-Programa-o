@@ -1,0 +1,31 @@
+programa
+{
+	
+inteiro n1,n2,n3
+	funcao inicio()
+	{
+ escreva ("Digite um numero :")
+		leia(n1)
+ escreva ("Digite um numero :")
+		leia(n2)
+ escreva ("Digite um numero :")
+		leia(n3)
+
+		se(n1>n2 e n1>n3){
+			escreva ("O numero maior é : ",n1)
+			
+		}senao se(n2>n1 e n2>n3){
+			escreva("O numero maior é : ",n2)
+			
+		}senao se(n3>n2 e n3>n1){
+			escreva("O numero maior é : ",n3)
+			
+ }senao se(n3==n2 e n3=n1){
+ escreva("Nao colocar numeros iguais ")
+ }senao se(n2==n1 e n2=n3){
+ escreva("Nao colocar numeros iguais ")
+		}senao se(n1==n2 e n1==n3){
+ escreva("Nao colocar numeros iguais ") 
+		}		
+	}
+}
