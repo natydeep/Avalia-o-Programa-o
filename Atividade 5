@@ -1,0 +1,32 @@
+programa
+{
+	
+real numero, numero1 , r , calculo
+	funcao inicio()
+	{
+ escreva ("Coloque um numero: " )
+		leia(numero)
+ escreva ("Coloque outro numero: " )
+		leia(numero1)
+ escreva ("A conta é : \n",
+			    "1) +\n2) -\n3) *\n4) / \n")
+		leia(r)
+		
+		se (
+r == 1){
+ calculo = numero+ numero1
+ escreva("A reposta é : ", calculo )
+ }senao se (r==2){
+ calculo = numero-numero1
+ escreva("A reposta é : ", calculo )
+ }senao se (r==3 ){
+ calculo = numero*numero1
+ escreva("A reposta é : ", calculo )
+ }senao se (r==4){
+ calculo = numero/numero1
+ escreva("A reposta é : ", calculo )
+		}senao{
+			escreva("Voce escolheu uma opção inaceitável")
+		}
+	}
+}
