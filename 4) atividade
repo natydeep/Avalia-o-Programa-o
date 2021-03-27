@@ -1,0 +1,53 @@
+programa
+{
+ 
+    
+     
+	
+ inteiro numero1, numero2, numero3, calculo
+	
+	funcao inicio()
+	{
+		escreva("Coloque um número: ")
+		leia(numero1)
+
+		escreva("Coloque outro número: ")
+		leia(numero2)
+
+		escreva("Coloque outro número: ")
+		leia(numero3)
+
+		se(numero1 > numero2 e numero2 > numero3) {
+			escreva("Os maiores números são:", numero1, " ", numero2)
+			calculo = numero1 + numero2
+			escreva("Valor é: ", calculo)
+		}senao se(numero3 > numero2 e numero2 > numero1){
+			escreva("Oa maiores numeros são: ", numero3, " ", numero2)
+			calculo = numero3+numero2
+			escreva("Valor é: ", calculo)
+
+		}senao se(numero2 > numero3 e numero3 > numero1){
+			escreva("Os maiores numeros são: ", numero2, " ", numero3)
+			calculo = numero2 + numero3
+			escreva("Calculo pé: ", calculo)
+
+		}senao se(numero1 > numero3 e numero3 >numero2){
+			escreva("Os maiores numeros são:", numero1, " ", numero3)
+			calculo = numero1+numero3
+			escreva("Valor é: ", calculo)
+
+		}senao se(numero3 > numero1 e numero1 > numero2){
+			escreva("Os maiores numeros são:", numero3, " ", numero1)
+			calculo = numero3+numero1 
+			escreva("Valor é: ", calculo)
+
+		}senao se(numero2 > numero1 e numero1 > numero3){
+			escreva("Os maiores números são:", numero2, " ", numero1)
+			calculo = numero2 + numero1
+			escreva("Valor é: ", calculo)
+			
+			
+			
+		}
+	}
+}
