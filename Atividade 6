@@ -1,0 +1,20 @@
+programa
+{
+	
+real n , n1
+	funcao inicio()
+	{
+ escreva ("Digite um numero : ")
+		leia(n)
+ escreva ("Digite um outro numero : ")
+		leia(n1)
+		
+		se(n==n1){
+			escreva("Os numeros são iguais")
+		}senao se(n<n1){
+ escreva("O sengundo numero ",n1", é maior primeiro que ",n)
+		}senao{
+			escreva("O primeiro numero ",n," é maior que o segundo que ",n1)
+		}
+	}
+}
