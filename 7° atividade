@@ -1,0 +1,15 @@
+programa
+{
+	inteiro n1
+	funcao inicio()
+	{
+		escreva("Numero de 1 a 10 na ordem crescente\n\n")
+		
+		n1 =1
+		enquanto (n1 <= 10)
+		{
+            escreva(n1",){
+		   n1++
+		}
+	}
+}
