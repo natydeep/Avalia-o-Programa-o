@@ -1,0 +1,20 @@
+programa
+{
+	
+	inteiro P
+ VP real,VD
+	funcao inicio()
+	{
+ VD=8190,0
+ escreva ("O valor do drone é 8.190\n")
+ escreva ("Digite quantas parcelas voce quer parcelar :")
+		leia(P)
+
+		VP=VD/P
+		
+		escreva("O valor das parcelas é :R$ ", VP)
+ escreva("\nFoi parcelado em ,"P)
+		
+		
+	}
+}
