@@ -1,0 +1,24 @@
+programa
+{
+	
+real n1,n2,midia
+	funcao inicio()
+	{
+ escreva ("Digite a nota da prova :")
+		leia(n1)
+ escreva ("Digite a nota da prova :")
+		leia(n2)
+		
+
+ midia =(n1+n2) /2
+ se(midia == 7){
+ escreva("Sua mídia é : ", midia)
+ escreva ("\nAprovado")
+		}senao{
+ escreva("Sua mídia é : ", midia)
+ escreva ("\nReprovado")
+		}
+		
+
+	}
+}
