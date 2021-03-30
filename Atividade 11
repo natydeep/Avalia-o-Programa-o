@@ -1,0 +1,33 @@
+programa
+{
+	
+real n1,n2,n3,n4,n5,n6,n7,n8,n9,n10,midia
+	funcao inicio()
+	{
+	
+ escreva("Bem vindo ao programa de notas\n Terminamos o semestre, vamos avaliar suas notas\n")
+ escreva ("Digite a sua primeira nota :")
+		leia(n1)
+		escreva("Digite a sua segunda nota :")
+		leia(n2)
+ escreva ("Digite a sua terceira nota :")
+		leia(n3)
+ escreva ("Digite a sua quarta nota :")
+		leia(n4)
+ escreva ("Digite a sua quinta nota :")
+		leia(n5)
+		escreva("Digite a sua sexta nota :")
+		leia(n6)
+ escreva ("Digite a sua setima nota :")
+		leia(n7)
+ escreva ("Digite a sua oitava nota :")
+		leia(n8)
+ escreva ("Digite a sua nona nota :")
+		leia(n9)
+ escreva ("Digite a sua decima nota :")
+		leia(n10)
+		
+ midia =(n1+n2+n3+n4+n5+n6+n7+n8+n9+n10)/10
+ escreva ("Sua mídia final foi : ", midia)
+	}
+}
