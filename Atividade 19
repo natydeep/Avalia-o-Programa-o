@@ -1,0 +1,19 @@
+programa
+{
+
+    funcao inicio()
+    {
+
+    inteiro a, b, troca
+
+        escreva("Digite o valor (numerico) da variavel A: ")
+        leia (a)
+        escreva("Digite o valor (numerico) da variavel B: ")
+        leia (b)
+        troca=a
+        a=b
+        b=troca
+ escreve("O novo valor de A é: ", a)
+ escreva ("\nO novo valor de B é:", b)
+    }
+}
