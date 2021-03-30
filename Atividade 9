@@ -1,0 +1,15 @@
+programa
+{
+	inteiro n1
+	funcao inicio()
+	{
+ escreva ("Numeros acima de 100 comeu 10 é :\n\n")
+		
+		n1 =100
+		enquanto (n1 <= 110)
+		{
+ escreva(n1",", ")
+		   n1++
+		}
+	}
+}
