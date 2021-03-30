@@ -1,0 +1,15 @@
+programa
+{
+	
+real a.p , mc
+	funcao inicio()
+	{
+ escreva ("Digite a sua altura ")
+		leia(a)
+ escreva("Digite a seu peso : ")
+		leia(p)
+		
+		mc= p / (a*a)
+ escreve("Seu cabo massa é : ", mc)
+	}
+}
